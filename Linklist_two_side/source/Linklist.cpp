@@ -220,7 +220,7 @@ int main()
             return 0;
         }
     }
-    cin >> m;
+    cin >> m;;
     for (int i = 1; i <= m; i++)
     {
         int k;
@@ -244,6 +244,6 @@ int main()
         }
     }
     L.display();
-    system("pause");
+    // system("pause");
     return 0;
 }
